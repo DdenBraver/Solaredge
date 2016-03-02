@@ -1,0 +1,65 @@
+object Solar: TSolar
+  Left = 374
+  Height = 240
+  Top = 157
+  Width = 540
+  Caption = 'Solar'
+  ClientHeight = 240
+  ClientWidth = 540
+  LCLVersion = '1.2.6.0'
+  object Edit1: TEdit
+    Left = 112
+    Height = 23
+    Top = 59
+    Width = 113
+    TabOrder = 0
+    Text = '12345678-AB'
+  end
+  object Pass: TEdit
+    Left = 112
+    Height = 23
+    Top = 100
+    Width = 373
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 115
+    Height = 25
+    Top = 180
+    Width = 75
+    Caption = 'Generate'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object PassAdv: TEdit
+    Left = 112
+    Height = 23
+    Top = 140
+    Width = 373
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 59
+    Height = 15
+    Top = 60
+    Width = 51
+    Caption = 'Device-ID'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 31
+    Height = 15
+    Top = 105
+    Width = 79
+    Caption = 'Tech Password'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 5
+    Height = 15
+    Top = 145
+    Width = 105
+    Caption = 'Tech-Adv Password'
+    ParentColor = False
+  end
+end
